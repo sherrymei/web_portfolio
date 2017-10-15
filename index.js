@@ -10,9 +10,10 @@ app.get('/', function (req, res) {
   res.send()
 })
 
- app.listen(process.env.PORT || 3000, function() {
-    console.log('Listening on port %s!', app.address().port)
+var server = app.listen(process.env.PORT || 3000, function() {
+    console.log('Listening on port %s!', server.address().port)
 })
+
 
 // var a = `
 // <html>
