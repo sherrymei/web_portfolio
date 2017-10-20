@@ -1,12 +1,11 @@
+
+
 body {
-	position:relative;
-	margin-top:100px;
-	margin-bottom: 100px;
-	background-color: black;
-	color: white;
+	padding: 50px;
+	position: relative;
 }
 
-img {
+.social {
 	width: 30px;
 	height: 30px;
 }
@@ -20,14 +19,4 @@ img {
 	font-size: 1em;
 }
 
-#about {
-	background-color: gray;
-}
 
-#proj {
-	background-color: gray;
-}
-
-#contact {
-	background-color: gray;
-}
