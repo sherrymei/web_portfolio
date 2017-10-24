@@ -1,7 +1,6 @@
 
 
 body {
-	padding: 50px;
 	position: relative;
 }
 
@@ -11,12 +10,27 @@ body {
 }
 
 .section {
-	height:100vh;
-	padding: 50px;
+	padding:50px;
 }
 
 .navbar-brand {
 	font-size: 1em;
 }
 
+.container-fluid {
+     padding:0;
+}
+
+#sherry {
+	background-color: white;
+	height: 100vh;
+}
+
+#contact {
+	height: 100vh;
+}
+
+#about, #proj, #contact {
+	background-color: lightblue;
+}
 

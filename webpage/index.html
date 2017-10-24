@@ -13,10 +13,9 @@
     <title>Sherry Mei</title>
 </head>
 
-<body class="container" data-spy="scroll" data-target="#navBar" data-offset="70">
-    <nav class="navbar fixed-top navbar-light bg-light justify-content-between" id="navBar">
-        	<a href="/" class="navbar-brand">SHERRY MEI</a>
-        
+<body data-spy="scroll" data-target="#navBar" data-offset="50">
+    <nav class="navbar sticky-top navbar-light bg-light justify-content-between" id="navBar">
+        <a href="/" class="navbar-brand">SHERRY MEI</a>
         <div>
             <ul class="nav nav-pills">
                 <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
@@ -24,53 +23,74 @@
                 <li class="nav-item"><a href="#contact" class="nav-link">CONTACT</a></li>
             </ul>
         </div>
-
         <div>
             <ul class="nav">
                 <li class="nav-item">
                     <a href="https://www.github.com/sherrymei"><img src="github-logo.png" alt="GitHub" class="social"></a>
                 </li>
-				&emsp;
+                &emsp;
                 <li class="nav-item">
                     <a href="https://www.linkedin.com/in/sherry-mei-11ab7673/"><img src="linkedin-logo.png" alt="LinkedIn" class="social"></a>
                 </li>
             </ul>
         </div>
-
     </nav>
-
-    <div class="container">
-        <div data-spy="scroll" data-target="#navBar">
-        	<div class="section text-center" id="sherry">
-<!--         		<h1>Sherry Mei</h1>
-        		<h4>student</h4> -->
-                <img src="sm-logo1.png" alt="SherryMei" height="500" width="333">
+    <div class="container-fluid">
+        <div  data-target="#navBar">
+            <div class="section" id="sherry">
+                <div class="text-center">
+                    <img class="img-fluid" src="sm-logo1.png" alt="SherryMei" width="300" id="logo">
+                </div>
+                <br/>
+                <div class="text-center">
+                    <h1>WELCOME TO MY PORTFOLIO!</h1>
+                </div>
             </div>
             <div class="section" id="about">
-                <h4>ABOUT ME</h4><br/>
-                <p> Hi. My name is Sherry Mei. I enjoy writing code for applications, whether that be software, mobile, or web application. I recently graduated from Boston College with a computer science degree. I enjoy utilizing my problem solving, analytical, critical thinking, and creative skills for all of my class assignments. I hope to improve these skills in a full-time position. </p>
-                <p>	If you want to know more about me, visit my <a href="https://www.github.com/sherrymei">GitHub</a> and my <a href="https://www.linkedin.com/in/sherry-mei-11ab7673/">LinkedIn</a>.</p>
+                <h4>ABOUT ME</h4>
+                <br/>
+                <p> Hi. I'm Sherry Mei, living in Boston, MA. I recently graduated from Boston College with a computer science degree in May 2017. I enjoy writing code for applications, whether that be software, mobile, or web application. Utilizing my problem solving, analytical, critical thinking, and creative skills are what I am good at. Hopefully a full-time position as a application developer will enhance these skills. </p>
+                <p> I love writing code while listening to music; it keeps me productive and focused. During my leisure time, I enjoy not only exploring novel places, but also spending quality time with friends and family.</p>
+                <p> Currently as a side project, I am developing an Android application called Reminders. This app is useful for users who forget easily; users can add items they want to be reminded, such as favorite quotes, to do lists, business cards, etc. </p>
             </div>
             <div class="section" id="proj">
                 <h4>PROJECTS</h4>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h6>Reminders</h6>
+                        <p>This is an Android app for users to remember their items in their lists.</p>
+                        <p>Coming Soon</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h6>Worlds Famous Places</h6>
+                        <p>This is an Android app for users to learn about the famous landmarks around the world. Users can save their favorite places in a list.</p>
+                        <img class="img-fluid" src="worlds.png" alt="Worlds" width="200">
+                        <p><a href="https://github.com/sherrymei/WorldFamousPlaces">Project Source Code</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <h6>Games</h6>
+                        <p>This is an Android app for users to play Hangman or TicTacToe.</p>
+                        <img class="img-fluid" src="games.png" alt="Games" width="200">
+                        <p><a href="https://github.com/sherrymei/GamesAndroid">Project Source Code</a></p>
+                    </div>
+                </div>
             </div>
-            <div class="section" id="contact">
-                <h4>CONTACT ME</h4>
-                <div class="text-center">
-	                <p> Questions? Comments? Say Hello? </p>
-	                <p>Send me an email. </p>
-	                <p>s.m.sherrymei@gmail.com</p>
-				</div>
-                <p></p>
-                <p></p>
+                <div class="section" id="contact">
+                    <h4>CONTACT ME</h4>
+                    <div class="text-center">
+                        <p>Want me to be on your team?</p>
+                        <p>Questions? Comments? Say hi? </p>
+                        <p>Send me an email. </p>
+                        <script language="JavaScript">
+                        var username = "s.m.sherrymei";
+                        var hostname = "gmail.com";
+                        var text = username + "@" + hostname;
+                        document.write("<p>" + text + "</p>");
+                        </script>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- Footer -->
-    <!--     <div class="container text-center">
-        <a href="https://www.github.com/sherrymei"><img src="github-logo.png" alt="GitHub"></a>
-        <a href="https://www.linkedin.com/in/sherry-mei-11ab7673/"><img src="linkedin-logo.png" alt="LinkedIn"></a>
-    </div> -->
 </body>
 
 </html>
