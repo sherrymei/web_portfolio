@@ -4,6 +4,10 @@ body {
 	position: relative;
 }
 
+nav, #sherry {
+	background-color: #e3f2fd;
+}
+
 .social {
 	width: 30px;
 	height: 30px;
@@ -22,7 +26,6 @@ body {
 }
 
 #sherry {
-	background-color: white;
 	height: 100vh;
 }
 
